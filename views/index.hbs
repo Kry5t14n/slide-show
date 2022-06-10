@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slider</title>
+    <title>Slide show</title>
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,16 +12,20 @@
     <div class="slider-container">
         <div class="slide">
             <img class="img1" src="img/1.jpg" alt="">
-            <img class="im2" src="img/2.jpg" alt="">
+            <img class="img2" src="img/2.jpg" alt="">
             <img class="img3" src="img/3.jpg" alt="">
             <img class="img4" src="img/4.jpg" alt="">
         </div>
     </div>
     <div class="nav-container">
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
+        <div id="left" class="arrow"></div>
+        <div id="dot1" class="dot active"></div>
+        <div id="dot2" class="dot"></div>
+        <div id="dot3" class="dot"></div>
+        <div id="dot4" class="dot"></div>
+        <div id="right" class="arrow"></div>
     </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
