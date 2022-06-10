@@ -1,0 +1,26 @@
+:root {
+    --main-0: #16262E;
+    --main-1: #2E4756;
+    --main-2: #3C7A89;
+
+    --color-0: #9FA2B2;
+    --color-1: #DBC2CF;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vh;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-container {
+    width: 60%;
+    margin: auto;
+}
+
+.slide {
+
+    width: 100%;
+}
